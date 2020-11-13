@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+    font-family: Comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color:#e2c99436;
+    margin: 0%; /*auto 0*/
+    }
+h3{ 
+    text-align: center; 
+    font-family: Comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1em;
+    text-decoration: blink;
+    color: #1c87c9
+    }
+#first-page{
+    width: 100vw;
+    height: 100vh;
+    margin: auto 0;
+}
+#nav{
+    text-align: center;
+    padding: 15px 0px;
+    word-spacing: 10px;
+    width: 100vw;
+    height: 2vh;
+    background-color: burlywood;
+    margin: auto 0;
+    }
+#navlinks.container{
+    width: 25%;
+    margin-left: 85%;
+    text-align: center;
+}
+
+.navlinks{
+    text-align: center;
+    font-size: large;
+    font-family: 'Dosis', sans-serif;
+    color: blue;
+    height: 85vh;
+}
+/*<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Space+Grotesk&display=swap" 
+rel="stylesheet">*/
+#title{
+    color:black;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: auto 0;
+}
+ .paragraphs{
+    text-indent: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 20px
+}
+
+#favlist{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-indent: 30px;
+    position: relative;
+    left: 25px
+}
+
+li{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-indent: 30px;
+    position: relative;
+    left: 50px;
+    padding: 5px;
+}
+a{
+   color:blue
+}
+#photo{
+    float: left; 
+    margin-right: 5px; 
+    margin-left: 10px;
+    border:solid black 2px; 
+    padding: 1px;
+}
+#DiffFont{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#DiffColor{
+    color: brown;
+}
+#DiffFontColor{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:coral;
+}
+
+
+/*#div1{
+    background-color: cornflowerblue;
+}
+#div2{
+    background-color: gainsboro;
+}
+#div3{
+    background-color: darkturquoise;
+}
+#div4{
+    background-color: darksalmon;
+}
+#div1, #div2, #div3, #div4{
+    border:dashed;
+}
+#form{
+    text-align: left;
+}*/
+form{
+    padding: 15px;
+    background-color: ghostwhite;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 900px;
+    font-family: sans-serif;
+}
+input{
+    color:black;
+    background-color:rgb(0,200,0);
+    padding: 5px;
+}
+input [type="button"]:hover{
+    border:solid;
+    background-color: rgba(2, 59, 245, 0.644);
+}
+input [type="text"]:focus {
+    background-color:darkorange;
+    color: black;
+    width: 100%;
+    transition: 2s; 
+}
+#video{
+    /*position: relative;
+    bottom: 160px;
+    left: 400px;*/
+    padding: 110px;
+    position: "relative";
+}
+
+/* 
+1)Having Trouble Linking my pages without error
+2)Having trouble creating a linkable CSS stylsheet to html
+3)Having trouble knowing where to place my CSS code so it's more organized (within HTML)
+*/
